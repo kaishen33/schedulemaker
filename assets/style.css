@@ -1,0 +1,55 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.hours {
+  background-color: lightblue;
+  color: black;
+  border-top: 1px dashed black;
+  text-align: center;
+  font-weight: 80px;
+  font-size: 21px;
+  height: 48px;
+}
+
+.past {
+  background-color: lightgray;
+  color: rgb(19, 20, 87);
+}
+
+.present {
+  background-color: lightcoral;
+  color: rgb(19, 20, 87);
+}
+
+
+.future {
+  background-color: rgb(178, 243, 178); 
+  color: rgb(19, 20, 87);
+}
+
+
+.save {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: lightskyblue;
+  color: white;
+  height: 45px;
+  width: 40px;
+  font-size: small;
+
+}
+
+.save i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
